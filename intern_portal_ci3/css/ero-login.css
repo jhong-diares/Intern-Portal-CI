@@ -1,0 +1,144 @@
+body{
+    background:#012579;
+}
+
+.bg-gradient-ero{
+    background-color: #012579;
+}
+
+.container-fluid{
+    background-color: #012579;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: right;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    
+}
+.head_img{
+    width: 50%;
+    position:absolute;
+    min-height: 35px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+        
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.all_background{
+text-align: center;
+align-items: center;
+}
+
+
+
+
+/* ======================================== Medium Screen ================================================ */
+
+@media screen and (max-width: 1000px){
+    .head_img {
+        margin: 0;
+        position: absolute;
+        width: 60%;
+        top: 40%;
+        left: 50%;
+        
+    }
+}
+
+@media screen and (max-width: 900px){
+    .head_img {
+        margin: 0;
+        position: absolute;
+        width: 360px;
+        top: 47%;
+        left: 50%;
+        
+    }
+}
+
+/* ====================================== Small Screen ======================================= */
+
+@media screen and (max-width: 767px){
+    .center{
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    .head_img {
+        margin: 0;
+        position: absolute;
+        width: 360px;
+        top: 38%;
+        left: 50%;
+        
+    }
+}
+
+@media screen and (max-width: 540px){
+    .head_img {
+        margin: 0;
+        position: absolute;
+        width: 360px;
+        top: 38%;
+        left: 50%;
+        
+    }
+
+    .center{
+        margin: 0;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+@media screen and (max-width: 376px){
+
+    .head_img {
+        margin: 0;
+        position: absolute;
+        width: 300px;
+        top: 35%;
+        left: 50%;
+        
+    }
+}
+
+

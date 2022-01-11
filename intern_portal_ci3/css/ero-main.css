@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+  }
+
+html,body{
+margin: 0;
+padding: 0;
+height: 100% !important;
+width: 100% !important;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* ================================================================ Standard Classes ============================================================ */
+
+
+.active{
+	font-weight: 600;
+}
+
+.p1{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.profile-name{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.text-muted{
+	color: #a9b6bc!important;
+}
+
+
+.modal-title{
+	font-size: 20px;
+	font-weight: 600;
+	color: #333333 !important;
+}
+
+.card{
+	border-radius: 10px !important;
+}
+
+.card-header{
+	border-radius: 10px 10px 0px 0px !important;
+}
+
+.card-footer{
+	border-radius: 0px 0px 10px 10px !important;
+}
+
+.card-body{
+	padding: 20px;
+}
+
+
+
+/* ============================================================= TOP NAV =============================================================== */
+
+
+.nav-pills .nav-link {
+    color:#fff !important;
+}
+
+
+.nav-header{
+	color:#aacff0 !important;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	padding: 7.5px 15px !important;
+}
+
+/* ================================================================ CARDS ======================================================= */
+/* .card{
+	background-color: #fff !important;
+	-webkit-box-shadow: 0 7px 14px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%) !important;
+    box-shadow: 0 1px 14px 0 rgb(65 69 88 / 10%), 0 1px 6px 0 rgb(0 0 0 / 7%) !important;
+} */
+
+.card .card-title{
+	font-size: 14px;
+    font-weight: 600;
+    color: #74788d;
+}
